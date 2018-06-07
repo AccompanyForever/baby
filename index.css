@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.phone{
+	   width: 320px;
+	   height: 600px;
+	   border: 2px #000 solid;
+	   margin: 30px auto;
+	   /*圆角所在圆的半径值*/
+	   border-radius:50px;
+	   background:black;
+
+}
+
+.top{
+	width: 216px;
+	height: 30px;
+	background: black;
+	margin: 20px auto; 
+
+}
+
+/*听筒*/
+.box{
+	width: 150px;
+	height: 14px;
+	border:1px solid #000;
+	border-radius:15px; 
+	float: left;
+	margin-top: 8px;
+	margin-left: 4px;
+	background: #3a3838;
+
+}
+/*呼吸灯*/
+.circle1{
+    width: 8px;
+    height: 8px;
+    background: #525212;
+    border-radius: 5px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+/*摄像头*/
+.circle2{
+    width: 14px;
+    height: 14px;
+    background: #3e3e37c9;
+    border-radius: 6px;
+	float: left;
+	margin-top: 9px;
+	margin-left: 8px;
+}
+
+
+.screen{
+	width: 300px;
+	height: 420px;
+	background-image: url("yeah2.png");
+	background-size: 150%;
+	margin: 0px auto; 
+
+
+}
+.home{
+	width: 80px;
+	height: 80px;
+	border:2px solid #000;  
+	border-radius: 50%;
+    margin: 10px  120px auto;
+    background-image: url("home.png");
+    background-size: 100%;
+}
+.all{
+	background-image: url(1.jpg);
+	background-size: 50%;
+}
